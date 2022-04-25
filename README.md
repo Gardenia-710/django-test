@@ -8,7 +8,7 @@ docker-compose build
 
 make prooject
 ```
-docker-compose run web --rm sh -c "django-admin startproject {projectname} ."
+docker-compose run --rm web django-admin startproject {projectname}
 ```
 
 Open {project name}/settings.py and fix.
